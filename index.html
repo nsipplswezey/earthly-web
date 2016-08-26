@@ -8,7 +8,7 @@
   <meta name="robots" content="index, follow"/>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Web QR</title>
+<title>QR-Scone Scanner</title>
 
 <style type="text/css">
 body{
@@ -127,8 +127,13 @@ QR-Scone Scanner
 <td valign="top" align="center" width="50%">
 <table class="tsel" border="0">
 <tr>
+  <!--
 <td><img class="selector" id="webcamimg" src="vid.png" onclick="setwebcam()" align="left" /></td>
 <td><img class="selector" id="qrimg" src="cam.png" onclick="setimg()" align="right"/></td></tr>
+  -->
+  <td><img class="selector" id="webcamimg" onclick="setwebcam()" align="left" /></td>
+  <td><img class="selector" id="qrimg" onclick="setimg()" align="right"/></td></tr>
+
 <tr><td colspan="2" align="center">
 <div id="outdiv">
 </div></td></tr>
